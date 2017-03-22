@@ -5,6 +5,7 @@
    <style>
       body{background-color: #badef3;}
       header{background-color: lightsteelblue;color: #5b1bce;padding: 1em;text-align: center;}
+       .myContainer {margin: 0 auto;width: 800px;}
       nav{background-color: rgb(168, 253, 171);color: #3349f5;padding: 10px;font-size: 25px;margin: 6px;}
       aside{background-color: pink;color: #08a092;height: 200px;width: 100px;float: left;}
       section{background-color: #e5b5ff;color: #177d29;margin-left: 125px;}
@@ -18,7 +19,11 @@
 </head>
   <body>
     <!--Write your header here-->
-    <header> <h1> my header </h1> </header>
+    <header> 
+      <div class = "myContainer">
+        <h1> my header </h1> 
+      </div>
+    </header>
     <!--Write your nav here-->
     <nav> my nav </nav>
     <!--Write your aside here-->
@@ -33,12 +38,14 @@
     </section> 
     <!--Write your footer here-->
     <footer> my footer
-     <img src="myQrCode.jpg">
-       <div id="myAddress">
-          <p>更新日期：2017年03月16日</p>
-          <p>校本部 高雄市84001大樹區學城路一段1號 Tel:(07)6577711</p>
-          <p>醫學院區 高雄市82445燕巢區角宿里義大路8號 Tel:(07)6151100</p>
-        </div>
-     </footer>
+      <div class = "myContainer">
+        <img src="myQrCode.jpg">
+          <div id="myAddress">
+            <p>更新日期：2017年03月16日</p>
+            <p>校本部 高雄市84001大樹區學城路一段1號 Tel:(07)6577711</p>
+            <p>醫學院區 高雄市82445燕巢區角宿里義大路8號 Tel:(07)6151100</p>
+          </div>
+      </div>
+    </footer>
   </body>
 </html>
