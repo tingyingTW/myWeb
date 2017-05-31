@@ -1,21 +1,26 @@
-
 <!DOCTYPE html>
 <html>
-<head>
 <title>my Dropdown Menu</title>
-<style>
-</style>
-</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <body>
-<h1> my dropdown menu </h1>
-<hr/>
-<div class="dropdown">
-<button>A</button>
-<div class="dropdown-content">
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <a href="#">Link 3</a>
+
+<div class="w3-container">
+  <h2> my dropdown menu </h2>
+
+  <div class="w3-bar w3-light-grey">
+    <a href="#" class="w3-bar-item w3-button">Home</a>
+    <a href="#" class="w3-bar-item w3-button">Link 1</a>
+    <div class="w3-dropdown-hover">
+      <button class="w3-button">Dropdown</button>
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">Link 1</a>
+        <a href="#" class="w3-bar-item w3-button">Link 2</a>
+        <a href="#" class="w3-bar-item w3-button">Link 3</a>
+      </div>
+    </div>
+  </div>
 </div>
-</div>
+
 </body>
 </html>
